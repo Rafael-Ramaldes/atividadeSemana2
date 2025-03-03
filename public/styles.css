@@ -1,0 +1,131 @@
+/* Reset básico de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e estilo básico para o corpo */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6B8F71;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Contêiner principal */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+.job-title {
+    font-size: 1.0rem;
+    color: #1D1E18;
+    margin-top: 5px;
+}
+
+.contact {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#e8ebe9;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #141414;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as experiências de trabalho */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.degree h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.degree p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.job p, .degree p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+}
