@@ -13,3 +13,6 @@
 
 ## Curriculo
 ![alt text](curriculo.png)
+
+## link do site do Replit
+https://79c751f4-417e-427e-b44f-a591ab46f489-00-3tz72j03motqu.worf.replit.dev/menu.html
